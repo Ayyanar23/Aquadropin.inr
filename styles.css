@@ -1,0 +1,185 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('A5.png'); /* Replace with the correct image URL */
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the body cover the entire viewport height */
+    background-size: cover; /* This makes the background image cover the entire element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Centers the background image horizontally and vertically */
+}
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px; /* Adjust the spacing as needed */
+}
+
+nav ul li a {
+    font-size: 16px; /* Change to your desired font size */
+    font-family: Arial, sans-serif; /* Change to your desired font style */
+    text-decoration: none; /* Remove underlines from links */
+    transition: all 0.2s; /* Smooth transition effect */
+    color: #ffffff; /* Change to your desired font color */
+}
+/* Style the container for social icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+/* Add styles for the icon above login */
+.icon-above-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon-above-login img {
+    width: 50px; /* Adjust the size as needed */
+}
+
+/* Add styles for social media icons below login button */
+.social-media-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media-icons a {
+    margin: 0 10px; /* Adjust the spacing between icons */
+}
+
+.social-media-icons img {
+    width: 30px; /* Adjust the size as needed */
+}
+
+/* Add your other CSS styles below */
+
+
+  /* Style the individual social icon links */
+  .social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333; /* Change the color to your preference */
+    transition: color 0.3s ease; /* Add a smooth color transition effect */
+  }
+  
+  /* Style the hover effect for the social icons */
+  .social-icons a:hover {
+    color: #007bff; /* Change the color on hover to your preferred hover color */
+  }
+  
+
+nav ul li a:hover {
+    font-size: 18px; /* Change to your desired font size on hover */
+    font-weight: bold; /* Change to your desired font weight on hover */
+    color: #ffffff; /* Change to your desired hover color */
+}
+
+h1{
+    color: rgb(0, 238, 255);
+    font-size: 750%;
+   
+}
+/* Center the input fields horizontally and vertically */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fcfdfe;
+    padding: 65px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add styles for the icon above login */
+.icon-above-login img {
+    width: 50px; /* Adjust the size as needed */
+}
+
+/* Add styles for social media icons below login button */
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px; /* Adjust the spacing between icons */
+    text-decoration: none;
+    font-size: 24px;
+    color: #333; /* Change the color to your preference */
+    transition: color 0.3s ease; /* Add a smooth color transition effect */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change the color on hover to your preferred hover color */
+}
+
+#footer-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #f7f4f45a; /* Optional background color */
+    padding: 10px; /* Optional padding */
+    border-radius: 12px;
+
+}
+
+
+.login-form {
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+.input-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
